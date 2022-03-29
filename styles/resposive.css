@@ -4,81 +4,84 @@
     .mobile-image{
         width: 100%;
         height: 400px;
-      }
-    .similar-exemples{
+    }
+    .card{
         display: flex;  
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 20px;
     } 
-
 }
 @media (max-width:930px) {
 
     .mobile-image{
         width: 100%;
         height: 350px;
-      }
-    .similar-exemples{
-        display: flex;  
+    }
+    .cards{
         flex-wrap: wrap;
+        height: 1000px;
+    }
+    .card{
+        display: flex;  
         justify-content: center;
         align-items: center;
-        height: 850px;
         gap: 20px;
     } 
-
 }
 @media (max-width:768px) {
 
     .mobile-image{
         width: 100%;
         height: 350px;
-      }
-      .similar-exemples{
+    }
+    .cards{
+        flex-wrap: wrap;
+        height: 1100px;
+    }
+    .card{
         display: flex;
         justify-content: center;
         align-items: center;  
-        flex-wrap: wrap;
     } 
-    .table-section{
-        margin: 25px 5px; 
+    .table{
+        margin: 30px 60px; 
     }
     .footer{
         display: flex;
         flex-wrap: wrap;
     }
-
 }
 @media (max-width:635px) {
-    .similar-exemples{
+    .cards{
+        flex-wrap: wrap;
+        height: 1400px;
+    }
+    .card {
         display: flex;
         justify-content: center;
         align-items: center;  
         flex-wrap: wrap;
-        height: 1300px;
     } 
-    .table-section{
-        margin: 25px 5px; 
+    .table{
+        margin: 30px 60px;
     }
     .footer{
         display: flex;
         flex-wrap: wrap;
     }
-
 }
 @media (max-width:480px) {
 
     .mobile-image{
         width: 100%;
         height: 150px;
-      }
-    .similar-exemples{
+    }
+    .card{
         display: flex;
         justify-content: center;  
         flex-wrap: wrap;
-        height:1300px; 
     } 
     .footer{
         display: flex;
